@@ -12,22 +12,11 @@
 // [X] When game is over prompt user if they would like to play again with default settings
 // [X] You can hit any alien you want, in any order
 // [X] You can go back to base at the beginning of your turn to regenerate health points
-// [ ] Start with one giant missile you can launch to deal 100% chance damage
-// [ ] Alien ship has mega pods that must defeated before main ship can be defeated
-//    (future notes for MEGA PODS: var alienShip = [
-				// {alien: true, points: 50},
-				// {alien: true, points: 50},
-				// {alien: true, points: 50},
-				// {alien: true, points: 50},
-				// {alien: true, points: 50},
-				// {alien: true, points: 50}]
 
 // KNOWN BUGS
 // updated 1/18/16
 // getInput will register values other than specified "1" or "2"
 // Even if player defeats all 6 aliens, alienTurn fires 1x again before victory screen
-
-console.log("hello i work");
 
 
 //player ship starts at 100 points
